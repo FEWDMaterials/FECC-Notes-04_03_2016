@@ -1,0 +1,38 @@
+#mytheme .my-masthead {
+	min-height: 500px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#mytheme .my-masthead {
+	/*background-color: rbga(11,11,11,1);*/
+	background-color: rgba(11,11,11,1.0);
+	transition: all 0.3s ease-in-out;
+}
+
+#mytheme .my-masthead-title {
+	font-size: 72px;
+	text-transform: uppercase;
+	margin-top: 172px;
+	color: white;
+
+	transition: all 0.3s ease-in-out;
+}
+
+#my-theme .my-masthead:hover {
+	background-color: white;
+}
+
+#mytheme .my-masthead:hover .my-masthead-title {
+	color: green;
+}
+
+#mytheme .content-wrapper {
+	padding: 50px;
+}
+
+@media all and ( max-width: 768px ) {
+	#mytheme .my-masthead-title {
+		font-size: 50px;
+	}
+}

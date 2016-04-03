@@ -1,0 +1,55 @@
+/* sup */
+
+.wrapper {
+	max-width: 960px;
+	/* center this */
+	margin: 0 auto;
+}
+
+.title {
+	text-align: center;
+}
+
+.inner {
+	/* space INSIDE the element */
+	padding: 20px;
+	border: 2px dashed black;
+}
+
+.centered {
+	margin: 0 auto;
+	max-width: 500px;
+}
+
+
+.image {
+	width: 100%;
+	height: 100%;
+}
+
+/*
+	h1 {
+		color: red;
+	}
+
+	selector {
+		...rules...
+	}
+*/
+
+/*#main-section {
+	border: 1px solid black;
+}*/
+
+/*h2 .main-title {
+	color: blue;
+}*/
+
+/*.main-title {
+	color: green;
+}
+
+h1 {
+	 apply these rules 
+	color: red;
+}*/
